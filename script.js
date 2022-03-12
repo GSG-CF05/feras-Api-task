@@ -12,6 +12,7 @@ function displayUser(user) {
     const location = document.getElementById('location');
     const image = document.getElementById('image');
 
+    
     name.innerText = `${user.name.title} ${user.name.first} ${user.name.last}`;
     gender.innerText = `${user.gender}`;
     email.innerText = `${user.email}`;
