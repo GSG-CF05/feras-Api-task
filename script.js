@@ -9,7 +9,7 @@ function displayUser(user) {
     const name = document.getElementById('name');
     const gender = document.getElementById('gender');
     const email = document.getElementById('email');
-    const location = document.getElementById('location');
+    const location = document.getElementById('Location');
     const image = document.getElementById('image');
 
     name.innerText = `${user.name.title} ${user.name.first} ${user.name.last}`;
